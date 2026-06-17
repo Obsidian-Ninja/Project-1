@@ -1,0 +1,5 @@
+# All the files we donot want to be uploaded on GitHub
+
+.env
+node_modules
+.DS_Store # a file on Mac
