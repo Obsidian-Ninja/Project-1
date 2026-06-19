@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend" ,
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
     "start": "npm run start --prefix backend"
   },
   "repository": {
@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/Obsidian-Ninja/Project-1/issues"
   },
-  "homepage": "https://github.com/Obsidian-Ninja/Project-1#readme"
+  "homepage": "https://github.com/Obsidian-Ninja/Project-1#readme",
+  "dependencies": {
+    "@clerk/clerk-react": "^5.61.3",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
+  }
 }
