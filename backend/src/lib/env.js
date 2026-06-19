@@ -1,6 +1,8 @@
 // # Adding a globalisez env config
 import dotenv from "dotenv";
-dotenv.config();
+
+// use quit, so that we dont see the warnings
+dotenv.config({quiet: true});
 
 export const ENV = {
     PORT: process.env.PORT,
