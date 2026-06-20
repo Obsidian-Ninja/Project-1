@@ -1,6 +1,6 @@
 import { Inngest } from "Inngest";
-import { connectDB } from "./db.js"
-import { User } from "../models/Users.js"
+import { connectDB } from "./db.js";
+import User from "../models/Users.js";
 
 // we have created an ingest client, allow us to communicate with inngest
 export const inngest = new Inngest({ id:"InterviewIQ" });
