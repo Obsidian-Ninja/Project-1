@@ -10,6 +10,7 @@ import { inngest, functions } from "./lib/inngest.js";
 const app = express();
 
 const __dirname = path.resolve();
+console.log(__dirname)
 
 // middleware
 app.use(express.json());
