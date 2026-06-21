@@ -1,0 +1,6 @@
+// Under package json, you can define engine: node >= 22.0.0
+// username:password database_name(default test)?
+// Clerk -> Ingest (webhook)
+// Ingest runs a job -> stores user data to monogDB and Stream
+{/* Wrap our app in clerk provider, so we can use it all across our app */}
+// web hooks - automated message that are sent when someting happens
