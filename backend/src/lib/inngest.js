@@ -1,6 +1,7 @@
 import { Inngest } from "inngest";
 import { connectDB } from "./db.js";
 import User from "../models/Users.js";
+import { deleteStreamUser, upsertStreamUser } from "./stream.js";
 
 // Inngest client
 export const inngest = new Inngest({
