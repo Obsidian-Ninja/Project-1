@@ -1,9 +1,9 @@
-import { Inngest } from "Inngest";
+import { inngest } from "inngest";
 import { connectDB } from "./db.js";
 import User from "../models/Users.js";
 
 // we have created an ingest client, allow us to communicate with inngest
-export const inngest = new Inngest({ id:"InterviewIQ" });
+export const inngest = new inngest({ id:"InterviewIQ" });
 
 const syncUser = inngest.createFunction(
     {id: "sync-user"},
