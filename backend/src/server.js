@@ -19,8 +19,8 @@ app.use(cors({ origin: ENV.CLIENT_URL, credentials: true}));
 app.use("/api/inngest", serve({ client: inngest, functions }) )
 
 app.get("/", (req, res) => {
-
-})
+  res.send("Backend is running 🚀");
+});
 
 // Make our app ready for production
 if(ENV.NODE_ENV === "production"){
